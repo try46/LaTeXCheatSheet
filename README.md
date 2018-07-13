@@ -56,5 +56,6 @@ basicstyle={\ttfamily\scriptsize},
 \subsection{hoge}%小節 1.1 hoge
 \subsubsection{hoge}%少々節 1.1.1 hoge
 ```
+章に関しては`jreport.sty`、`jbook.sty`を使用しているときのみ。
 
 
