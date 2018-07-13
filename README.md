@@ -13,8 +13,8 @@
 \end{document}
 ```
 
-## よく使うと思われるテンプレ1(ソースコード挿入あり)
-```
+## よく使うと思われるテンプレ2(ソースコード挿入あり)
+```tex
 \documentclass[a4j]{jsarticle}
 \usepackage{fancybox}
 \usepackage{amssymb, amsmath}
