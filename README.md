@@ -1,6 +1,6 @@
 # LaTeXCheatSheet
 
-## ご自由にご使用ください(何かあっても自己責任でお願いします)
+## ご自由にご使用ください(何かあっても自己責任でお願いします)<br>パッケージについては一部自分で追加している物もありますその場合は自分の環境に合わせるか適宜追加をお願いします。
 
 ## よく使うと思われるテンプレ1(ソースコード挿入なし)
 
@@ -20,6 +20,7 @@
 \usepackage{amssymb, amsmath}
 \usepackage{listings,jlisting}
 \usepackage[normalem]{ulem}
+\usepackage{eclclass}%このスタイルシートは自分で追加
 \usepackage{ascmac}
 \usepackage[table,xcdraw]{xcolor}
 \usepackage{comment}
@@ -45,6 +46,15 @@ basicstyle={\ttfamily\scriptsize},
 \usepackage[dvipdfmx]{graphicx}
 \begin{document}
 \end{document}
+```
+
+## 部、章、節、小節、少々節
+```tex
+\part{hoge}%部、第Ⅰ部hoge
+\chapter{hoge}%章 第1章hoge
+\section{hoge}%節 1.hoge
+\subsection{hoge}%小節 1.1 hoge
+\subsubsection{hoge}%少々節 1.1.1 hoge
 ```
 
 
