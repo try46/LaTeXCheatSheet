@@ -58,4 +58,20 @@ basicstyle={\ttfamily\scriptsize},
 ```
 章に関しては`jreport.sty`、`jbook.sty`を使用しているときのみ。
 
+## 表について
+```tex
+\begin{table}[htbp]
+\centering
+\caption{test}
+\begin{tabular}{|c|c|c|c|c|}
+月&火&水&木&金\\ \hline
+国語&数学&理科&社会&道徳\\ \hline
+\end{tabular}
+\label{時間割}
+\end{table}
+```
+結果:↓
 
+|  月  |  火  |  水  |  木  |  金  |
+|:----:|:----:|:----:|:----:|:----:|
+| 国語 | 数学 | 理科 | 社会 | 道徳 |
